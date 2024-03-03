@@ -1,0 +1,41 @@
+body{
+    background-image: url('bg.png');
+}
+#score{
+    font-size: 30px;
+    float:left;
+    margin-left: 60px;
+    font-family: 'Satisfy', cursive;
+}
+
+#timer{
+    font-size: 30px;
+    float:right;
+    margin-right: 60px;
+    font-family: 'Satisfy', cursive;
+}
+
+#sketch{
+    font-size: 30px;
+    font-family:cursive;
+    color: crimson;
+}
+h1{
+    background-color:azure;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#show_sketch{
+    float:right;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+#your_sketch, #confidence{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+canvas {
+margin-top: 100px;
+border-radius: 20px;
+}
